@@ -10,19 +10,23 @@ mysql -u root -p
 
 ## Creating User 
 
+https://blog.devart.com/how-to-create-a-new-user-and-grant-privileges.html
+
 CREATE USER 'username' IDENTIFIED BY 'password';
 
 GRANT SELECT ON *.* TO 'username';
 
 GRANT ALL PRIVILEGES ON *.* TO 'username';
 
-## Deleeting a user 
+## Deleting a user 
 
 DROP USER 'username'; 
 
 ## Creating a database
 
 CREATE DATABASE dbname; 
+
+show database
 
 USE dbname;
 
