@@ -22,7 +22,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'username';
 
 DROP USER 'username'; 
 
-## Creating a database
+## Creating a databases
 
 CREATE DATABASE dbname; 
 
@@ -34,6 +34,9 @@ USE dbname;
 
 DROP DATABASE dbname;
 
+## Creating tables
+
+show tables
 
 ## Help
 
